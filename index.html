@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DOM Interaction</title>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <table id='table'>
+    <tr>
+      <td class="name">Yash</td>
+      <td><button id='0' onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td class="name">Urvi</td>
+      <td><button id='1' onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td class="name">Davda</td>
+      <td><button id='2' onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td class="name">Keyur</td>
+      <td><button id='3' onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+  </table>
+  <button id='addButton'>Add Name</button>
+</body>
+</html>
